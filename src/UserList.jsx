@@ -28,7 +28,7 @@ const UserList = () => {
 
     return (
         <div>
-            <h1 className="text-center">User List</h1>
+            <h1 className="text-center">User List..</h1>
             {
                 data.map(user => <div key={user.id} >
                     <h3>Name: {user.name}</h3>
